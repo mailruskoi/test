@@ -1,14 +1,20 @@
-#!/bin/sh
+#!/bin/bash
 
-# Change the following address to your ETH addr.
-ADDRESS=0x0415991022668f3DD764896f23D3a11c806f9ADd
+#################################
+## Begin of user-editable part ##
+#################################
 
-USERNAME=$ADDRESS.google1
 POOL=eth-us.sparkpool.com:13333
-# Change SCHEME according to your POOL. For example:
-# ethash:     Nanopool
-# ethproxy:   BTC.com, Ethermine, PandaMiner, Sparkpool
-# ethstratum: Antpool.com, BTC.com, F2pool, Huobipool.com, Miningpoolhub
-SCHEME=ethstratum
+WALLET=0x0415991022668f3DD764896f23D3a11c806f9ADd.googleWorker
 
-./bminer -uri $SCHEME://$USERNAME@$POOL -api 127.0.0.1:1880
+#################################
+##  End of user-editable part  ##
+#################################
+
+cd "$(dirname "$0")"
+
+./lolMiner --algo ETHASH --pool $POOL --user $WALLET $@
+while [ $? -eq 42 ]; do
+    sleep 10s
+    ./lolMiner --algo ETHASH --pool $POOL --user $WALLET $@
+done
