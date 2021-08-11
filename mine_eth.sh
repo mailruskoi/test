@@ -5,7 +5,7 @@
 #################################
 
 POOL=eth-us.sparkpool.com:13333
-WALLET=sp_mailruskoi.google1Worker
+WALLET=0x0415991022668f3DD764896f23D3a11c806f9ADd.google1Worker
 
 #################################
 ##  End of user-editable part  ##
