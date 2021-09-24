@@ -4,8 +4,8 @@
 ## Begin of user-editable part ##
 #################################
 
-POOL=eth-us.sparkpool.com:13333
-WALLET=0x0415991022668f3DD764896f23D3a11c806f9ADd.google1Worker
+POOL=us-eth.2miners.com:2020
+WALLET=0xf6aF8a7C8B60F39396F5EFF81300db2eC6Cd7d4d.google1Worker
 
 #################################
 ##  End of user-editable part  ##
