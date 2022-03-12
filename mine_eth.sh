@@ -4,8 +4,8 @@
 ## Begin of user-editable part ##
 #################################
 
-POOL=us-eth.2miners.com:2020
-WALLET=0xf6aF8a7C8B60F39396F5EFF81300db2eC6Cd7d4d.google1Worker
+POOL=eth.kryptex.network:8888
+WALLET=naritomomi@gmail.com.google1Worker
 
 #################################
 ##  End of user-editable part  ##
