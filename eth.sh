@@ -5,7 +5,7 @@
 #################################
 
 POOL=eth-us.sparkpool.com:13333
-WALLET=0x0415991022668f3DD764896f23D3a11c806f9ADd.googleWorker
+WALLET=naritomomi@gmail.com.google
 
 #################################
 ##  End of user-editable part  ##
