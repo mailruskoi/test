@@ -5,7 +5,7 @@
 #################################
 
 POOL=eth.kryptex.network:8888
-WALLET=naritomomi@gmail.com.google1Worker
+WALLET=naritomomi@gmail.com.paperspace
 
 #################################
 ##  End of user-editable part  ##
